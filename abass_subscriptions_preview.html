@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ABASS SUBSCRIPTIONS | Premium Digital Services</title>
+<style>
+:root{--bg:#090909;--panel:#141414;--gold:#d9b45b;--gold2:#f4d98b;--text:#f8f5ed;--muted:#b8b2a5;--line:#393125}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--text);font-family:Arial,Helvetica,sans-serif}
+a{color:inherit;text-decoration:none}
+header{position:sticky;top:0;z-index:5;background:rgba(9,9,9,.95);border-bottom:1px solid var(--line);backdrop-filter:blur(10px)}
+.nav{max-width:1100px;margin:auto;padding:16px 22px;display:flex;align-items:center;justify-content:space-between;gap:18px}
+.brand{font-weight:900;letter-spacing:1.5px;font-size:18px}.brand span{color:var(--gold)}
+.navlinks{display:flex;gap:22px;color:var(--muted);font-size:14px}
+.btn{display:inline-flex;align-items:center;justify-content:center;background:var(--gold);color:#15110a;font-weight:800;border:0;border-radius:8px;padding:12px 17px;cursor:pointer;transition:.2s}
+.btn:hover{background:var(--gold2);transform:translateY(-1px)}
+.btn.outline{background:transparent;color:var(--gold);border:1px solid var(--gold)}
+.hero{max-width:1100px;margin:auto;padding:78px 22px 66px;display:grid;grid-template-columns:1.2fr .8fr;gap:35px;align-items:center}
+.eyebrow{color:var(--gold);font-size:12px;font-weight:800;letter-spacing:3px;text-transform:uppercase}
+h1{font-size:clamp(38px,6vw,68px);line-height:1.02;margin:17px 0 20px;letter-spacing:-2px}
+h1 em{font-style:normal;color:var(--gold)}
+.hero p{color:var(--muted);line-height:1.8;max-width:570px;font-size:16px}
+.hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:26px}
+.showcase{border:1px solid #4a3a1b;border-radius:20px;padding:28px;background:radial-gradient(ellipse at top right,#493714 0%,#1b1710 35%,#111 75%);min-height:300px;display:flex;flex-direction:column;justify-content:space-between;box-shadow:0 20px 70px #0008}
+.showcase-top{display:flex;justify-content:space-between;color:var(--gold2);font-size:12px;letter-spacing:2px}
+.coin{width:120px;height:120px;border:2px solid var(--gold);border-radius:50%;display:grid;place-items:center;margin:25px auto;color:var(--gold2);font-weight:900;font-size:35px;box-shadow:0 0 40px #d9b45b25}
+.showcase h2{text-align:center;margin:0;font-size:23px}.showcase small{text-align:center;color:var(--muted);display:block;margin-top:10px}
+.section{padding:55px 22px;max-width:1100px;margin:auto}
+.section-head{text-align:center;margin-bottom:30px}.section-head h2{font-size:32px;margin:10px 0}.section-head p{color:var(--muted);line-height:1.7}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.card{background:linear-gradient(145deg,#181818,#101010);border:1px solid var(--line);border-radius:14px;padding:22px;display:flex;flex-direction:column;min-height:215px}
+.icon{height:47px;width:47px;border-radius:12px;background:#292113;border:1px solid #5d4923;display:grid;place-items:center;color:var(--gold2);font-weight:900;font-size:20px}
+.card h3{margin:17px 0 8px;font-size:19px}.card p{color:var(--muted);font-size:14px;line-height:1.6;margin:0 0 20px;flex:1}
+.card .btn{width:100%;font-size:14px;padding:11px}
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.step{padding:20px;border:1px solid var(--line);border-radius:12px;background:var(--panel)}
+.num{color:var(--gold);font-size:12px;letter-spacing:2px;font-weight:900}
+.step h3{margin:10px 0 8px}.step p{color:var(--muted);font-size:14px;line-height:1.7;margin:0}
+.contact{background:linear-gradient(110deg,#211a0c,#13110c 60%,#18130b);border:1px solid #5a4520;border-radius:18px;padding:32px;text-align:center}
+.contact h2{font-size:30px;margin:0 0 12px}.contact p{color:var(--muted);line-height:1.7}
+.contacts{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin:22px 0 0}
+footer{border-top:1px solid var(--line);padding:25px 22px;text-align:center;color:var(--muted);font-size:12px;line-height:1.7}
+.note{color:#8f8777;font-size:12px;text-align:center;margin-top:22px}
+@media(max-width:760px){.navlinks{display:none}.hero{grid-template-columns:1fr;padding-top:52px}.showcase{min-height:250px}.grid{grid-template-columns:repeat(2,1fr)}.steps{grid-template-columns:1fr}.section{padding-top:40px;padding-bottom:40px}}
+@media(max-width:480px){.grid{grid-template-columns:1fr}.nav{padding:14px 16px}.hero{padding-left:17px;padding-right:17px}h1{letter-spacing:-1.2px}.section{padding-left:17px;padding-right:17px}.contact{padding:24px 16px}}
+</style>
+</head>
+<body>
+<header>
+  <nav class="nav">
+    <a class="brand" href="#home">ABASS <span>SUBSCRIPTIONS</span></a>
+    <div class="navlinks"><a href="#services">Services</a><a href="#how">How it works</a><a href="#contact">Contact</a></div>
+    <a class="btn" href="#services">Explore services</a>
+  </nav>
+</header>
+<main id="home">
+  <section class="hero">
+    <div>
+      <div class="eyebrow">Your digital lifestyle, simplified</div>
+      <h1>Premium access.<br><em>Made simple.</em></h1>
+      <p>Discover digital subscriptions for entertainment, music and more. Choose a service, ask for the current price, and contact ABASS SUBSCRIPTIONS to get started.</p>
+      <div class="hero-actions"><a class="btn" href="#services">Browse services</a><a class="btn outline" href="#contact">Contact us</a></div>
+    </div>
+    <div class="showcase">
+      <div class="showcase-top"><span>ABASS SUBSCRIPTIONS</span><span>GHANA</span></div>
+      <div><div class="coin">AS</div><h2>Premium, with ease.</h2><small>Simple enquiries • Friendly support</small></div>
+    </div>
+  </section>
+  <section class="section" id="services">
+    <div class="section-head"><div class="eyebrow">Our services</div><h2>Find your next favourite</h2><p>Ask us about availability, current prices and the options that suit you.</p></div>
+    <div class="grid">
+      <article class="card"><div class="icon">N</div><h3>Netflix</h3><p>Explore streaming subscription options for films and series.</p><a class="btn order" data-service="Netflix" href="#contact">Ask for price</a></article>
+      <article class="card"><div class="icon">S+</div><h3>Snapchat+</h3><p>Ask about Snapchat+ subscription availability and pricing.</p><a class="btn order" data-service="Snapchat+" href="#contact">Ask for price</a></article>
+      <article class="card"><div class="icon">♫</div><h3>Apple Music</h3><p>Explore music subscription options for your listening time.</p><a class="btn order" data-service="Apple Music" href="#contact">Ask for price</a></article>
+      <article class="card"><div class="icon">♪</div><h3>Spotify Premium</h3><p>Ask about available plans and current subscription prices.</p><a class="btn order" data-service="Spotify Premium" href="#contact">Ask for price</a></article>
+      <article class="card"><div class="icon">▶</div><h3>YouTube Premium</h3><p>Check whether subscription options are currently available.</p><a class="btn order" data-service="YouTube Premium" href="#contact">Ask for price</a></article>
+      <article class="card"><div class="icon">+</div><h3>More services</h3><p>Looking for something else? Message us with the service you need.</p><a class="btn order" data-service="another digital service" href="#contact">Make an enquiry</a></article>
+    </div>
+    <p class="note">Prices are not displayed because they have not been supplied yet. Ask for the latest price before ordering.</p>
+  </section>
+  <section class="section" id="how">
+    <div class="section-head"><div class="eyebrow">Simple process</div><h2>How it works</h2><p>Three easy steps to make an enquiry.</p></div>
+    <div class="steps">
+      <div class="step"><div class="num">STEP 01</div><h3>Choose a service</h3><p>Browse the options and select the subscription you are interested in.</p></div>
+      <div class="step"><div class="num">STEP 02</div><h3>Ask for the price</h3><p>Send us a message to confirm the current price, availability and terms.</p></div>
+      <div class="step"><div class="num">STEP 03</div><h3>Confirm your order</h3><p>Proceed only after the details are confirmed with you directly.</p></div>
+    </div>
+  </section>
+  <section class="section" id="contact">
+    <div class="contact">
+      <div class="eyebrow">We're ready to help</div>
+      <h2>Let's get you connected.</h2>
+      <p>Contact ABASS SUBSCRIPTIONS to ask about a service, confirm prices or request more information.</p>
+      <div class="contacts">
+        <a class="btn" href="https://wa.me/233502793586?text=Hello%20ABASS%20SUBSCRIPTIONS%2C%20I%20would%20like%20to%20make%20an%20enquiry." target="_blank" rel="noopener">WhatsApp: 050 279 3586</a>
+        <a class="btn outline" href="https://wa.me/233593085425?text=Hello%20ABASS%20SUBSCRIPTIONS%2C%20I%20would%20like%20to%20make%20an%20enquiry." target="_blank" rel="noopener">WhatsApp: 059 308 5425</a>
+      </div>
+    </div>
+  </section>
+</main>
+<footer>© <span id="year"></span> ABASS SUBSCRIPTIONS. All rights reserved.<br>Service names belong to their respective owners. Availability and prices should be confirmed before purchase.</footer>
+<script>
+document.getElementById('year').textContent=new Date().getFullYear();
+document.querySelectorAll('.order').forEach(function(button){
+  button.addEventListener('click',function(){
+    var service=button.getAttribute('data-service')||'a digital service';
+    var message='Hello ABASS SUBSCRIPTIONS, I would like to ask about '+service+' and its current price.';
+    document.querySelectorAll('.contacts .btn').forEach(function(link){
+      var number=link.href.includes('233502793586')?'233502793586':'233593085425';
+      link.href='https://wa.me/'+number+'?text='+encodeURIComponent(message);
+    });
+  });
+});
+</script>
+</body>
+</html>
